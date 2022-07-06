@@ -1,0 +1,13 @@
+**/node_modules
+/dist
+/public
+/cypress
+/.vscode
+
+dist
+dist-ssr
+*.local
+
+/src/assets/fonts
+/src/assets/images
+/src/assets/icons

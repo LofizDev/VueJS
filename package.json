@@ -1,0 +1,39 @@
+{
+	"name": "coderhouse",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"serve": "vite preview",
+		"format": "prettier . --write src/**",
+		"lint": "eslint --ext .js,.vue,.ts --ignore-path .gitignore --fix src"
+	},
+	"dependencies": {
+		"@types/lodash": "^4.14.176",
+		"@vueuse/core": "^7.6.2",
+		"axios": "^0.27.2",
+		"js-sha256": "^0.9.0",
+		"lodash": "^4.17.21",
+		"moment": "^2.29.1",
+		"sha256": "^0.2.0",
+		"tailwindcss": "^3.0.22",
+		"tw-elements": "^1.0.0-alpha11",
+		"vue": "^3.2.16",
+		"vue-axios": "^3.4.1",
+		"vue-plugin-axios": "^1.0.14",
+		"vue-router": "^4.0.12",
+		"vue3-carousel": "^0.1.36",
+		"vue3-date-time-picker": "^2.4.4"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^1.9.3",
+		"autoprefixer": "^10.4.0",
+		"eslint": "^8.1.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-vue": "^8.0.3",
+		"postcss": "^8.3.11",
+		"prettier": "2.4.1",
+		"sass": "^1.45.1",
+		"vite": "^2.9.7"
+	}
+}
