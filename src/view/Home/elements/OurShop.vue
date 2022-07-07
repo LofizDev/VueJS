@@ -38,6 +38,11 @@ const mockSlider = [
 		content:
 			"Tại đây mình vừa làm quên một vài người bạn, đồng nghiệp mới, cùng chung sở thích đam mê. Thật tuyệt vời khi coder house là nơi tụi mình gặp gỡ, tụ họp mỗi khi có thời gian rảnh",
 	},
+	{
+		writer: "Tuyên Trần",
+		content:
+			"Ngol !!!",
+	},
 ];
 </script>
 

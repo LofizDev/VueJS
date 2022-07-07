@@ -122,12 +122,12 @@ onMounted(() => {
 				<div
 					class="transition-all ease-in-out w-[60px] h-[2px] mt-[0.313rem] 4xl:mt-[0.625rem] bg-[#05273A]"
 					:class="{
-						'!w-[24px] translate-x-0': selectedTab === 0,
-						'!w-[24px] translate-x-[500%]': selectedTab === 1,
-						'!w-[24px] translate-x-[980%]': selectedTab === 2,
-						'!w-[24px] translate-x-[1460%]': selectedTab === 3,
-						'!w-[24px] translate-x-[2050%]': selectedTab === 4,
-						'!w-[24px] translate-x-[2465%]': selectedTab === 5,
+						'!w-[84px] translate-x-0': selectedTab === 0,
+						'!w-[83.5px] translate-x-[141%]': selectedTab === 1,
+						'!w-[84px] translate-x-[278%]': selectedTab === 2,
+						'!w-[110px] translate-x-[317%]': selectedTab === 3,
+						'!w-[10%] translate-x-[600%]': selectedTab === 4,
+						'!w-[60px] translate-x-[822%]': selectedTab === 5,
 					}"
 				></div>
 			</div>

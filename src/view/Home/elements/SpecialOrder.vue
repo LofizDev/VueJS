@@ -150,7 +150,7 @@ export default {
 </script>
 
 <template>
-	<div class="relative flex w-full h-[74.25rem] lg:h-[61.688rem]">
+	<div class="relative flex w-full h-[85rem] lg:h-[63rem]">
 		<img :src="landing_background" class="bg-repeat object-cover h-full" />
 		<!-- <div class="bg-img w-full h-full"></div> -->
 		<img

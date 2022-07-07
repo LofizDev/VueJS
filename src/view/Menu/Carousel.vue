@@ -112,9 +112,11 @@ export default defineComponent({
 }
 @media only screen and (max-width: 1222px) {
 	.tabs-container {
-		padding-left: 16px;
-		/* margin-right: 16px; */
+    width: calc(100vw - 32px);
 	}
+	.carousel__slide:last-of-type {
+	margin-right: 16px;
+}
 }
 @media only screen and (max-width: 1020px) {
 	.titleMenu {
